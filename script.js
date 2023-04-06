@@ -18,6 +18,9 @@ const onKeyPress = (e) => {
             span[i].textContent = e.code;
         }
     }
+    if(span[0].textContent === ' '){
+        span[0].textContent = e.code;
+    }
 
 };
 
